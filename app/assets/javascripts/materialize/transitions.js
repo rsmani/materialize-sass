@@ -56,7 +56,7 @@
     });
   };
 
-  $(document).on('ready turbolinks:load', function () {
+  $(document).on('ready turbo:load', function () {
     // Hardcoded .staggered-list scrollFire
     // var staggeredListOptions = [];
     // $('ul.staggered-list').each(function (i) {

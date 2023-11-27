@@ -16,3 +16,5 @@ mkmf.log
 .DS_Store
 materialize-src/
 .npmignore
+
+/.idea/

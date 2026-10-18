@@ -79,11 +79,11 @@
 
 // Form prefix
 .prefix ~ .chips {
-  margin-left: 3rem;
+  margin-left: 36px;
   width: 92%;
-  width: calc(100% - 3rem);
+  width: calc(100% - 36px);
 }
 .chips:empty ~ label  {
-  font-size: 0.8rem;
+  font-size: 9.6px;
   transform: translateY(-140%);
 }

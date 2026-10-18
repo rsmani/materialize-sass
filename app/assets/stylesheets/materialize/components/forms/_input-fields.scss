@@ -151,7 +151,7 @@ textarea.materialize-textarea {
 
     input,
     .select-dropdown {
-      margin-bottom: 1rem;
+      margin-bottom: 12px;
     }
   }
 
@@ -163,12 +163,12 @@ textarea.materialize-textarea {
 
     .prefix ~ label,
     .prefix ~ .validate ~ label {
-      width: calc(100% - 3rem - #{$gutter-width});
+      width: calc(100% - 36px - #{$gutter-width});
     }
   }
 
   position: relative;
-  margin-top: 1rem;
+  margin-top: 12px;
 
   label {
     color: $input-border-color;
@@ -176,7 +176,7 @@ textarea.materialize-textarea {
     top: 0;
     left: 0;
     height: 100%;
-    font-size: 1rem;
+    font-size: 12px;
     cursor: text;
     transition: transform .2s ease-out;
     transform-origin: 0% 100%;
@@ -194,7 +194,7 @@ textarea.materialize-textarea {
   .prefix {
     position: absolute;
     width: $input-height;
-    font-size: 2rem;
+    font-size: 24px;
     transition: color .2s;
 
     &.active { color: $input-focus-color; }
@@ -205,24 +205,24 @@ textarea.materialize-textarea {
   .prefix ~ label,
   .prefix ~ .validate ~ label,
   .prefix ~ .autocomplete-content {
-    margin-left: 3rem;
+    margin-left: 36px;
     width: 92%;
-    width: calc(100% - 3rem);
+    width: calc(100% - 36px);
   }
 
-  .prefix ~ label { margin-left: 3rem; }
+  .prefix ~ label { margin-left: 36px; }
 
   @media #{$medium-and-down} {
     .prefix ~ input {
       width: 86%;
-      width: calc(100% - 3rem);
+      width: calc(100% - 36px);
     }
   }
 
   @media #{$small-and-down} {
     .prefix ~ input {
       width: 80%;
-      width: calc(100% - 3rem);
+      width: calc(100% - 36px);
     }
   }
 }
@@ -236,8 +236,8 @@ textarea.materialize-textarea {
 
   .nav-wrapper & {
     height: inherit;
-    padding-left: 4rem;
-    width: calc(100% - 4rem);
+    padding-left: 48px;
+    width: calc(100% - 48px);
     border: 0;
     box-shadow: none;
   }
@@ -256,17 +256,17 @@ textarea.materialize-textarea {
   }
 
   & + label {
-    left: 1rem;
+    left: 12px;
   }
 
   & ~ .mdi-navigation-close,
   & ~ .material-icons {
     position: absolute;
     top: 0;
-    right: 1rem;
+    right: 12px;
     color: transparent;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 24px;
     transition: .3s color;
   }
 }
@@ -293,7 +293,7 @@ textarea {
     }
 
     overflow-y: hidden; /* prevents scroll bar flash */
-    padding: .8rem 0 1.6rem 0; /* prevents text jump on Enter keypress */
+    padding: 9.6px 0 19.2px 0; /* prevents text jump on Enter keypress */
     resize: none;
     min-height: $input-height;
   }
@@ -305,7 +305,7 @@ textarea {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
-  padding-top: 1.2rem; /* prevents text jump on Enter keypress */
+  padding-top: 14.4px; /* prevents text jump on Enter keypress */
 
   // Reduces repaints
   position: absolute;

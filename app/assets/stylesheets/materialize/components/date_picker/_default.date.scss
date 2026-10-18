@@ -129,7 +129,7 @@
   border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
-  font-size: 1rem;
+  font-size: 12px;
   width: 100%;
   margin-top: .75em;
   margin-bottom: .5em;
@@ -174,7 +174,7 @@
   position: relative;
   color: #595959;
   letter-spacing: -.3;
-  padding: .75rem 0;
+  padding: 9px 0;
   font-weight: 400;
   border: 1px solid transparent;
 
@@ -195,7 +195,7 @@
 }
 .picker__day--outfocus {
   display: none;
-  padding: .75rem 0;
+  padding: 9px 0;
   color: #fff;
 }
 .picker__day--infocus:hover{
@@ -368,7 +368,7 @@
   margin-right: 5px;
 }
 .picker__year-display {
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: 500;
   color: $datepicker-year;
 }
@@ -377,7 +377,7 @@
   padding: 0;
 }*/
 .picker__calendar-container {
-  padding: 0 1rem;
+  padding: 0 12px;
 
   thead {
     border: none;
@@ -393,13 +393,13 @@
 .picker__day--infocus {
   color: $datepicker-weekday-color;
   letter-spacing: -.3px;
-  padding: 0.75rem 0;
+  padding: 9px 0;
   font-weight: 400;
   border: 1px solid transparent;
 }
 @media only screen and (min-width: 601px) {
 	.picker__day--infocus {
-		padding: 1.1rem 0;
+		padding: 13.2px 0;
 	}
 }
 
@@ -415,7 +415,7 @@
 
 // Table Header
 .picker__weekday {
-  font-size: .9rem;
+  font-size: 10.8px;
 }
 
 
@@ -439,8 +439,8 @@
 
 // Materialize modified
 .picker__close, .picker__today, .picker__clear {
-  font-size: 1.1rem;
-  padding: 0 1rem;
+  font-size: 13.2px;
+  padding: 0 12px;
   color: $datepicker-selected;
 }
 .picker__clear {

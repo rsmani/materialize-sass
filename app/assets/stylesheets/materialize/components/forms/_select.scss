@@ -147,12 +147,12 @@ select:disabled {
 
 // Prefix Icons
 .prefix ~ .select-wrapper {
-  margin-left: 3rem;
+  margin-left: 36px;
   width: 92%;
-  width: calc(100% - 3rem);
+  width: calc(100% - 36px);
 }
 
-.prefix ~ label { margin-left: 3rem; }
+.prefix ~ label { margin-left: 36px; }
 
 // Icons
 .select-dropdown li {
@@ -177,6 +177,6 @@ select:disabled {
   }
 
   & ~ li.optgroup-option {
-    padding-left: 1rem;
+    padding-left: 12px;
   }
 }

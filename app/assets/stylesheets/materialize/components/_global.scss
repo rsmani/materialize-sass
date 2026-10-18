@@ -94,7 +94,7 @@ a {
 
 blockquote {
   margin: 20px 0;
-  padding-left: 1.5rem;
+  padding-left: 18px;
   border-left: 5px solid $primary-color;
 }
 
@@ -112,16 +112,16 @@ i {
     margin-left: 15px;
   }
   &.tiny {
-    font-size: 1rem;
+    font-size: 12px;
   }
   &.small {
-    font-size: 2rem;
+    font-size: 24px;
   }
   &.medium {
-    font-size: 4rem;
+    font-size: 48px;
   }
   &.large {
-    font-size: 6rem;
+    font-size: 72px;
   }
 }
 
@@ -147,7 +147,7 @@ video.responsive-video {
     a {
       color: #444;
       display: inline-block;
-      font-size: 1.2rem;
+      font-size: 14.4px;
       padding: 0 10px;
       line-height: 30px;
     }
@@ -162,7 +162,7 @@ video.responsive-video {
     }
 
     i {
-      font-size: 2rem;
+      font-size: 24px;
     }
   }
 
